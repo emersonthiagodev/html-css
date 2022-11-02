@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(34, 98, 138);
+}
+h1{
+    color:white;
+    text-align: center;
+    font: 40px arial;
+}
+a{
+    position:relative;
+    left: 560px;
+}
+iframe{
+    position:relative;
+    left: 560px;
+}
+.playlist{
+    left: 750px;
+}
+.voltar{
+    left: 800px;
+}

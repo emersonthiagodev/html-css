@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(10, 83, 167);
+    margin: 0;
+}
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.itens-nav{
+    list-style: none;
+    display: flex;
+}
+.links{
+    position: relative;
+    top:30px;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(216, 215, 215);
+    font: bold 15pt arial;
+}
+#link-01{
+    left: 200px;
+}
+#link-02{
+    left: 300px;
+}
+#link-03{
+    left: 700px;
+}
+#link-04{
+    left: 800px;
+}
+.buscar{
+    position: absolute;
+    top: 40px;
+    left: 95%;
+}
+.buscar img{
+    width: 30px;
+    cursor: pointer;
+}
+.content div{
+    background-color: rgb(39, 39, 161);
+    width: 200px;
+    height:50px;
+    position: relative;
+    top:150px;
+    left:890px;
+}
+.content span{
+    color: rgb(216, 215, 215);
+    position: relative;
+    top:8px;
+    left: 40px;
+    font: bold 20pt normal;
+}
+.content h1{
+    font: bold 100pt arial;
+    text-align: center;
+    position: relative;
+    top:50px;
+}
+.content p{
+    color: rgb(216, 215, 215) ;
+    width: 400px;
+    position: relative;
+    top: 80px;
+    left: 900px;
+}
+#linha-vertical-alto{
+    width: 5px;
+    height: 160px;
+    position: absolute;
+    left: 52px;
+    bottom: 460px;
+    background-color: rgb(23, 109, 206);
+}
+#linha-vertical-baixo{
+    width: 5px;
+    height: 160px;
+    position: absolute;
+    left: 52px;
+    bottom: 120px;
+    background-color: rgb(23, 109, 206);
+}
+.redes-sociais{
+    position: absolute;
+    bottom: 280px;
+}
+.redes-sociais ul{
+    text-decoration: none;
+    list-style: none;
+}
+.redes-sociais li{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(39, 39, 161);
+}
+.redes-sociais img{
+    width: 20px;
+    position: relative;
+    top:5px;
+    left: 5px;
+}

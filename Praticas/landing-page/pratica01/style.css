@@ -1,0 +1,121 @@
+body{
+    background-color: gray;
+    overflow-x: hidden;
+    margin: 0px;
+}
+#nav-bar{
+    background-color: rgb(68, 63, 63);
+    width:100%;
+    height: 80px;
+}
+#content-slider{
+    background-color: rgb(172, 167, 167);
+    width: 1000px;
+    height: 450px;
+    margin-top: 25px;
+    margin-left: 460px;
+    border-radius: 5px;
+}
+.slider{
+    margin: 0px auto;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+.sliders{
+    width: 400%;
+    height: 400px;
+    display:flex;
+}
+.sliders input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+}
+.slider img{
+    width: 800px;
+    height:400px ;
+    position: relative;
+    top: 25px;
+}
+.manual-navigation{
+    position:absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid rgb(209, 207, 207);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:Last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: #fff;
+}
+#btn1:checked ~ .frist{
+    margin-left: 0;
+}
+#btn2:checked ~ .frist{
+    margin-left: -25%;
+}
+#btn3:checked ~ .frist{
+    margin-left: -50%;
+}
+#btn4:checked ~ .frist{
+    margin-left: -75%;
+}
+#content{
+    background-color: rgb(172, 167, 167);
+    width: 1000px;
+    height: 1220px;
+    margin-top: 25px;
+    margin-left: 460px;
+    border-radius: 5px;
+}
+#baseboard{
+    background-color: rgb(65, 64, 64);
+    width: 100%;
+    height: 150px;
+    margin-top: 25px;
+}
+#menu{
+    position: relative;
+    top:30px;
+    left:650px
+}
+a{
+    font: normal 15pt arial;
+    text-decoration: none;
+    color:white;
+    padding-left: 50px;
+}
+a:hover{
+    color: rgb(158, 146, 146);
+}
+h1{
+    font: bold 22pt arial;
+    text-align: center;
+    padding-top: 15px;
+}
+h2{
+    font: bold 20pt arial;
+    padding-left: 20px;
+}
+p{
+    font: 15pt arial;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer{
+    text-align: center;
+    position: relative;
+    top:75px;
+}

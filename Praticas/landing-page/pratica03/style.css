@@ -1,0 +1,123 @@
+body{
+    background-color:rgb(194, 187, 187);
+    margin: 0;
+}
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.nav-itens{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 1px;
+}
+.nav-links{
+    font:normal 24px arial;
+    width: 200px;
+    position: relative;
+    top:20px;
+}
+nav{
+    width: 460px;
+    position: relative;
+    left:380px;
+}
+#campo-buscar{
+    width: 300px;
+    height: 35px;
+    position: relative;
+    top: 30px;
+    left: 370px;
+    border-radius: 10px;
+    border: none;
+}
+::placeholder{
+    padding-left:20px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+#usuario{
+    width: 180px;
+    height: 45px;
+    position: relative;
+    top:20px;
+    left: 430px;
+    border-radius: 20px;
+    background-color: purple;
+    cursor: pointer;
+}
+img{
+    width: 45px;
+    padding-left: 10px;
+}
+#log{
+    font: bold 12pt arial;
+    color: white;
+    display: inline;
+    position: relative;
+    left: 10px;
+    bottom: 16px;
+}
+#txt-top{
+    font: normal 20pt arial;
+    margin-left:100px;
+    position: relative;
+    top:40px;
+}
+h1{
+    font: bold 48pt arial;
+    margin-left: 100px;
+}
+#txt{
+    font:normal 12pt arial;
+    width: 400px;
+    margin-left:100px;
+    position: relative;
+    bottom: 20px;
+}
+#redes-sociais{
+    background-color: purple;
+    border-radius: 10px;
+    width: 80px;
+    height: 170px;
+    position: absolute;
+    left:-40px;
+    bottom: 300px;
+    padding-right: 3px;
+}
+.redes-sociais-img{
+    width: 25px;
+    margin-top:7px;
+}
+.redes-sociais-links{
+    list-style: none;
+}
+.areas-container{
+    display:flex;
+    position: absolute;
+    left: 20px;
+}
+.area{
+    width: 310px;
+    height: 80px;
+    padding: 15px;
+    margin-top:20px;
+    margin-left:60px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 2px 3px 3px;
+}
+.area:hover{
+    transform: scale(1.2);
+}
+.sub-titulo-area{
+    font: bold 14px arial;
+    align-items: center;
+}
+.txt-area{
+    font: normal 10px arial;
+}

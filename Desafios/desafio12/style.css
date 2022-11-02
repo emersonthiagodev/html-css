@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+/*font-family: 'Passion One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/*font-family: 'Sriracha', cursive;*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+}
+
+header > h1{
+    font-family: 'Passion One', cursive;
+    font-size: 3em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main p{
+    margin: 16px;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.1em;
+    line-height: 2em;
+    width: 175px;
+}
+
+div#img01{
+    background-image: url(imagens/background001.jpg);
+}
+
+div#img02{
+    background-image: url(imagens/background002.jpg);
+}
+div.background-img{
+    background-size: 120%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+div.background-estrofe{
+    background-color: rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    width: 200px;
+}
+
+div p{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
